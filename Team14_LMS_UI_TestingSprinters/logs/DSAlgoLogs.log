@@ -1,0 +1,157 @@
+[INFO ]2024-04-2419:13:37.887[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:13:37.889[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:13:40.161[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:13:40.216[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:14:23.399[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:14:23.402[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:14:24.886[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:14:24.947[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:18:41.504[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:18:41.506[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:18:42.962[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:18:43.179[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:18:43.180[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:18:43.180[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[ERROR]2024-04-2419:18:43.197[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:18:43.483[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:22:05.426[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:22:05.428[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:22:06.936[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:22:07.124[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:22:07.124[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:22:07.125[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[ERROR]2024-04-2419:22:07.146[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:22:07.449[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:23:33.959[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:23:33.961[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:23:35.456[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:23:35.638[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:23:35.639[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:23:35.639[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2419:23:38.332[main]utilities.LoggerLoad1)-User is on signin page
+[ERROR]2024-04-2419:23:38.404[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:23:38.728[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:25:09.082[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:25:09.084[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:25:10.554[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:25:10.743[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:25:10.744[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:25:10.744[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2419:25:13.306[main]utilities.LoggerLoad1)-User is on signin page
+[ERROR]2024-04-2419:25:13.394[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:25:13.758[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:28:10.256[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:28:10.258[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:28:11.665[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:28:11.842[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:28:11.842[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:28:11.842[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2419:28:14.041[main]utilities.LoggerLoad1)-User is on signin page
+[ERROR]2024-04-2419:28:14.132[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:28:14.473[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:30:33.228[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:30:33.230[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:30:34.695[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:30:34.886[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:30:34.886[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:30:34.886[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2419:30:37.088[main]utilities.LoggerLoad1)-User is on signin page
+[ERROR]2024-04-2419:30:37.168[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:30:37.528[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:35:57.925[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:35:57.926[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:35:59.397[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:35:59.613[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:35:59.614[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:35:59.614[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2419:36:02.296[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2419:36:02.478[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2419:36:05.710[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:36:05.883[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:38:39.922[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:38:39.923[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:38:41.415[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:38:41.747[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:38:41.747[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:38:41.747[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2419:38:44.525[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2419:38:44.710[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2419:38:46.741[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:38:46.909[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2419:39:06.893[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2419:39:06.895[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2419:39:08.347[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2419:39:08.548[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2419:39:08.548[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2419:39:08.548[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2419:39:10.765[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2419:39:10.976[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2419:39:16.539[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2419:39:16.659[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2508:51:14.925[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2508:51:14.928[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2508:51:17.184[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2508:51:17.280[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2508:51:17.281[main]utilities.LoggerLoad1)-[@Signin6] : User login with valid username and valid password
+[INFO ]2024-04-2508:51:17.281[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2508:51:20.357[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2508:51:20.556[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2508:51:23.581[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2508:51:23.644[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2508:51:23.644[main]utilities.LoggerLoad1)-[] : The user is presented with error message for invalid user id or password
+[INFO ]2024-04-2508:51:23.644[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2508:51:23.647[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2508:53:29.838[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2508:53:29.842[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2508:53:31.410[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2508:53:31.479[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2508:54:05.516[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2508:54:05.522[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2508:54:07.006[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2508:54:07.076[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2508:54:07.076[main]utilities.LoggerLoad1)-[@Signin6] : User login with valid username and valid password
+[INFO ]2024-04-2508:54:07.077[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2508:54:09.451[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2508:54:09.638[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2508:54:13.468[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2508:54:13.562[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2508:54:13.562[main]utilities.LoggerLoad1)-[] : The user is presented with error message for invalid user id or password
+[INFO ]2024-04-2508:54:13.562[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2508:54:13.562[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2509:04:02.658[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2509:04:02.661[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2509:04:04.265[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2509:04:04.338[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2509:04:04.338[main]utilities.LoggerLoad1)-[@Signin6] : User login with valid username and valid password
+[INFO ]2024-04-2509:04:04.339[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2509:04:06.935[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2509:04:07.144[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2509:04:09.533[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2509:04:09.639[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2509:04:09.639[main]utilities.LoggerLoad1)-[] : The user is presented with error message for invalid user id or password
+[INFO ]2024-04-2509:04:09.639[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2509:04:09.639[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2509:23:32.449[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2509:23:32.451[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2509:23:34.068[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2509:23:34.142[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2509:23:34.142[main]utilities.LoggerLoad1)-[@Signin6] : User login with valid username and valid password
+[INFO ]2024-04-2509:23:34.142[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2509:23:36.858[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2509:23:37.050[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2509:23:40.158[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2509:23:40.236[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2509:23:40.237[main]utilities.LoggerLoad1)-[] : The user is presented with error message for invalid user id or password
+[INFO ]2024-04-2509:23:40.237[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[ERROR]2024-04-2509:23:40.242[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2509:23:40.260[main]utilities.LoggerLoad1)-Closing Driver
+[INFO ]2024-04-2509:54:43.729[main]utilities.LoggerLoad1)-Loading Config file
+[INFO ]2024-04-2509:54:43.731[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2024-04-2509:54:45.653[main]utilities.LoggerLoad1)-Initializing driver for : chrome
+[INFO ]2024-04-2509:54:45.874[main]utilities.LoggerLoad1)-===============================================================================================
+[INFO ]2024-04-2509:54:45.874[main]utilities.LoggerLoad1)-[@signin, @signin5] : User login with valid username and valid password
+[INFO ]2024-04-2509:54:45.874[main]utilities.LoggerLoad1)------------------------------------------------------------------------------------------------
+[INFO ]2024-04-2509:54:48.501[main]utilities.LoggerLoad1)-User is on signin page
+[INFO ]2024-04-2509:54:48.780[main]utilities.LoggerLoad1)-User clicks Login with valid username and password 
+[ERROR]2024-04-2509:54:58.519[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2024-04-2509:54:58.718[main]utilities.LoggerLoad1)-Closing Driver

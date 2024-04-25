@@ -24,7 +24,7 @@ static WebDriver driver;
 //			driver =WebDriverManager.firefoxdriver().create();
 			LoggerLoad.info("Testing on firefox");
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
-			firefoxOptions.addArguments("--headless");
+			//firefoxOptions.addArguments("--headless");
 			driver = new FirefoxDriver(firefoxOptions);
 
 		} else if (browser.equalsIgnoreCase("chrome")) {
@@ -32,7 +32,7 @@ static WebDriver driver;
 		
 			LoggerLoad.info("Testing on chrome");
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--headless=new");
+			//chromeOptions.addArguments("--headless=new");
 			driver = new ChromeDriver(chromeOptions);
 
 
@@ -47,7 +47,7 @@ static WebDriver driver;
 //			driver=WebDriverManager.edgedriver().create();
 			LoggerLoad.info("Testing on edge");
 			EdgeOptions edgeOptions = new EdgeOptions();
-			edgeOptions.addArguments("--headless=new"); 
+			//edgeOptions.addArguments("--headless=new"); 
 			driver = new EdgeDriver(edgeOptions);
 
 	
