@@ -10,12 +10,13 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"stepdefenition"},    
-        plugin = {"pretty","html:target/HtmlReport/report.html",
-        		"json:target/JSONReport/report.json",
-        		"junit:target/JUnitReport/report.xml",
-        		"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-        		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-        
+        plugin = {"pretty"},
+//        ,"html:target/HtmlReport/report.html",
+//        		"json:target/JSONReport/report.json",
+//        		"junit:target/JUnitReport/report.xml",
+//        		"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+//        		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+//        
         monochrome=false
 		
 		)

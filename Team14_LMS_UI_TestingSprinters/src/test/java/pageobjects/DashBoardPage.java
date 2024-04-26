@@ -1,6 +1,7 @@
 package pageobjects;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class DashBoardPage {
@@ -11,4 +12,11 @@ public class DashBoardPage {
         this.webDriver = webDriver;
     }
 
-}
+    private By userLink = By.xpath("//*[@id='user']/span[1]");
+
+	public void clickOnUserLink() {
+			webDriver.findElement(userLink).click();
+		}
+	}
+
+

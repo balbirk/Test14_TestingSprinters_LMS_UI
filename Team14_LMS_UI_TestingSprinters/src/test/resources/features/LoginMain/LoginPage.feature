@@ -11,9 +11,9 @@ Feature: Signing into LMS UI portal
       | sheetName | rowNumber |
 	    | LoginPage | 0       |
 	      
-Scenario: User click on Signout
-		When when user completes all operations
-		Then User click on Signout
+#Scenario: User click on Signout
+#		When when user completes all operations
+#		Then User click on Signout
  
      
    

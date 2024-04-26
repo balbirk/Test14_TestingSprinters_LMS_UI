@@ -1,12 +1,15 @@
 Feature: Add New User Data
 
 Background: Admin is on dashboard page after Login and clicks User on the navigation bar
-	  Given The user opens LMS portal link
-    When The user enters userid and password, user clicks "login" button
-    Then The user should be redirected to manage program page
-    And user clicks on User link in user module
-    Then User should be redirected to User page in user module
-    And User clicks on "+ A New User" button on user page
+	  
+  	Scenario Outline: Validate login with valid credentials
+    Given Admin is in Home Page
+    When User enters sheetname "<sheetName>" and rownumber <rowNumber>
+    And Enter username "<userName>" and password "<password>" and click on login button
+    Then User navigates to DashBoard Page
+    Examples:
+      | sheetName | rowNumber |
+	    | LoginPage | 0       |
     
     Scenario: Check if user is created when only mandatory fields are entered with valid data in user module
     Given Admin is on  User details pop up in user module

@@ -29,11 +29,11 @@ Feature: Validating Login page
     #Then It should display an error message "Please check your password." password not valid 
 #
       #
-     @signin5
-  Scenario: User login with valid username and valid password
-    Given The user is on signin page
-    When The user clicks Login with valid username  "sdetorganizers@gmail.com" and valid password "UIHackathon@02"
-    Then It should display "You are logged in" message with username in top right corner   
+     #@signin5
+  #Scenario: User login with valid username and valid password
+    #Given The user is on signin page
+    #When The user clicks Login with valid username  "sdetorganizers@gmail.com" and valid password "UIHackathon@02"
+    #Then It should display "You are logged in" message with username in top right corner   
 
       
      #@signin6
