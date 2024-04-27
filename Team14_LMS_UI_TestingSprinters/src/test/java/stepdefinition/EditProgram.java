@@ -1,73 +1,104 @@
 package stepdefinition;
 
+import static org.testng.Assert.assertEquals;
+
+import java.awt.Robot;
+import java.time.Duration;
+import java.util.Set;
+
+import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import browserlaunch.Driverfactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageobjects.LoginPage;
 
 public class EditProgram {
 	
-	static WebDriver driver=new ChromeDriver();	
+	//static WebDriver driver=new ChromeDriver();	
+	LoginPage lg = new LoginPage(Driverfactory.getDriver());
 	
 	@Given("Admin is logged-in to the LMS Web Application.")
 	public void admin_is_logged_in_to_the_lms_web_application() {
 		
-		driver.manage().window().maximize();
-	    driver.get("https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/");
-	    WebElement Uname=driver.findElement(By.id("username"));
+		Driverfactory.getDriver().manage().window().maximize();
+		Driverfactory.getDriver().get("https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/");
+	    WebElement Uname=Driverfactory.getDriver().findElement(By.id("username"));
 	    Uname.sendKeys("sdetorganizers@gmail.com");
-	    WebElement pwd=driver.findElement(By.id("password"));
+	    WebElement pwd=Driverfactory.getDriver().findElement(By.id("password"));
 	    pwd.sendKeys("UIHackathon@02");
-	    WebElement BtnLogin=driver.findElement(By.xpath("//button//span[@class='mat-button-wrapper']"));
+	    WebElement BtnLogin=Driverfactory.getDriver().findElement(By.xpath("//button//span[@class='mat-button-wrapper']"));
 	    BtnLogin.click();
 	}
 
 	@When("Admin clicks Program module on Navigation bar.")
 	public void admin_clicks_program_module_on_navigation_bar() {
 	     
-		WebElement ProgLink= driver.findElement(By.id("program"));
+		WebElement ProgLink= Driverfactory.getDriver().findElement(By.id("program"));
 		ProgLink.click();
 	     
 	}
 
 	@Then("Admin should be on the Manage Program page.")
 	public void admin_should_be_on_the_manage_program_page() {
-	     WebElement ManageProgText=driver.findElement(By.xpath("//div//mat-card//mat-card-title//div[contains(text(),' Manage')]"));
-	     
+		Driverfactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	    WebElement ManageProgText=Driverfactory.getDriver().findElement(By.xpath("//div//mat-card//mat-card-title//div[contains(text(),'Manage Program')]"));
+	    Assert.assertTrue(ManageProgText.isDisplayed());
 	     
 	}
 
 	@Given("Admin is On the Manage Program Page")
 	public void admin_is_on_the_manage_program_page() {
-	     
-	     
+	Driverfactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	WebElement ManageProgText=Driverfactory.getDriver().findElement(By.xpath("//div//mat-card//mat-card-title//div[contains(text(),'Manage Program')]"));
+	 Assert.assertTrue(ManageProgText.isDisplayed());
 	}
 
 	@When("Admin click the Edit button in front of the Program name")
 	public void admin_click_the_edit_button_in_front_of_the_program_name() {
-	     
-	     
+		Driverfactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	     WebElement SearchProg=Driverfactory.getDriver().findElement(By.id("filterGlobal"));
+	     SearchProg.click();
+	     SearchProg.sendKeys("edittest1234");
+	     WebElement foundProgName=Driverfactory.getDriver().findElement(By.xpath("//div//table//tbody//tr//td[2][text()='edittest1234']"));
+	     //String FoundName=foundProgName.getText();
+	     //Assert.assertEquals(FoundName,"test123");
+	     WebElement checkboxProgname=Driverfactory.getDriver().findElement(By.xpath("//div//div[2][@class='p-checkbox-box p-component']"));
+	     checkboxProgname.click();
+	     WebElement EditButton=Driverfactory.getDriver().findElement(By.id("editProgram"));
+	     EditButton.click();
 	}
 
 	@Then("Popup form should be opened for editing Program Details")
 	public void popup_form_should_be_opened_for_editing_program_details() {
-	     
-	     
+		WebElement titleprogdetails=Driverfactory.getDriver().findElement(By.xpath("//div//div//span[@class='p-dialog-title ng-tns-c132-3 ng-star-inserted' and contains(text(),'Program Details')]"));
+		System.out.println(titleprogdetails.getText());
+		String title=titleprogdetails.getText();
+		String ExpectedTitle="Program Details";
+		Assert.assertEquals(title, ExpectedTitle);
 	}
 
 	@Given("Admin is on the Program Details popup window for selected Program name.")
 	public void admin_is_on_the_program_details_popup_window_for_selected_program_name() {
-	     
+		WebElement titleprogdetails=Driverfactory.getDriver().findElement(By.xpath("//div//div//span[@class='p-dialog-title ng-tns-c132-3 ng-star-inserted' and contains(text(),'Program Details')]"));
+		Assert.assertTrue(titleprogdetails.isDisplayed());
 	     
 	}
 
 	@When("Admin edit the name on Program Details popup window and click on Save")
 	public void admin_edit_the_name_on_program_details_popup_window_and_click_on_save() {
-	     
+		Driverfactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement ProgName=Driverfactory.getDriver().findElement(By.id("programName"));
+		 ProgName.clear();
+		 ProgName.sendKeys("edittest1234");
+		 WebElement SaveButton=Driverfactory.getDriver().findElement(By.id("saveProgram"));
+		 SaveButton.click();
 	     
 	}
 
