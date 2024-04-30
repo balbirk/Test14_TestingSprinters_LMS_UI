@@ -1,5 +1,6 @@
 package pageobjects;
 
+import java.sql.Time;
 import java.time.Duration;
 
 import org.junit.Assert;
@@ -10,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import browserlaunch.Driverfactory;
 
 public class EditProgram {
-	String EditProgName="team14test1";
+	String EditProgName="team14test2";
 	String EditProgDesc="test987";
 	public WebDriver driver;
 	
@@ -56,7 +57,7 @@ public class EditProgram {
 		closebtn.click();
 	}
 	
-	public void admin_is_on_the_program_details_popup_window_for_selected_program_name() {
+	public void admin_is_on_the_program_details_popup_window_for_selected_program_name() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	     WebElement SearchProg=driver.findElement(By.id("filterGlobal"));
 	     SearchProg.click();
@@ -69,6 +70,7 @@ public class EditProgram {
 //	     JavascriptExecutor js = (JavascriptExecutor)Driverfactory.getDriver();
 //	     Object element = null;
 //		js.executeScript("arguments[0].click();", element);
+	     Thread.sleep(300);
 	     WebElement EditButton=driver.findElement(By.id("editProgram"));
 	     EditButton.click();
 //		WebElement titleprogdetails=Driverfactory.getDriver().findElement(By.xpath("//div//div//span[@class='p-dialog-title ng-tns-c132-3 ng-star-inserted' and contains(text(),'Program Details')]"));
@@ -165,13 +167,41 @@ public void admin_click_on_the_cancel_button_on_program_window_popup() throws In
      
 }
 
-public void admin_click_on_the_save_button_on_program_window_popup() {
+public void admin_click_on_the_save_button_on_program_window_popup() throws InterruptedException {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //	WebElement titleprogdetails=Driverfactory.getDriver().findElement(By.xpath("//div//div//span[@class='p-dialog-title ng-tns-c132-3 ng-star-inserted' and contains(text(),'Program Details')]"));
 //	Assert.assertTrue(titleprogdetails.isDisplayed());
 	Driverfactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	Thread.sleep(300);
      WebElement SaveButton=driver.findElement(By.id("saveProgram"));
 	 SaveButton.click();
      
+}
+
+public void admin_clicks_delete_button_on_the_data_table_for_any_row() {
+	WebElement deletebutton=driver.findElement(By.id("deleteProgram"));
+     deletebutton.click();
+     
+}
+
+public void admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(String string) {
+    
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    WebElement ConfirmText=driver.findElement(By.xpath("//div//div//div//span[@class='p-dialog-title ng-tns-c133-4 ng-star-inserted' and contains(text(),'Confirm')]"));
+    Assert.assertTrue(ConfirmText.isDisplayed());
+}
+
+public void admin_is_on_the_manage_program_page_and_select_single_program_to_delete() throws InterruptedException {
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    WebElement SearchProg=driver.findElement(By.id("filterGlobal"));
+    SearchProg.click();
+    SearchProg.clear();
+    SearchProg.sendKeys(EditProgName);
+    String xpath1="//div//table//tbody//tr//td[2][text()='"+EditProgName+"']";
+    WebElement foundProgName=driver.findElement(By.xpath(xpath1));
+    WebElement checkboxProgname=driver.findElement(By.xpath("//div//div[2][@class='p-checkbox-box p-component']"));
+    checkboxProgname.click();
+    Thread.sleep(300);
+    
 }
 }

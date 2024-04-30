@@ -53,23 +53,23 @@ Then Program staus should be changed with successful message.
    #| 1234     | $%^         |
    #| %^&			|	@#$re34			|
    
-@Cancel_Button
-Scenario: Admin click on Cancel button on Program Details Popup
-Given Admin is on the Program Details popup window for selected Program name.
-When Admin click on the cancel button on Program window popup
-Then Popup window closed with page navigate to Manage Program page. Nothing changed for particular program.  
+#@Cancel_Button
+#Scenario: Admin click on Cancel button on Program Details Popup
+#Given Admin is on the Program Details popup window for selected Program name.
+#When Admin click on the cancel button on Program window popup
+#Then Popup window closed with page navigate to Manage Program page. Nothing changed for particular program.  
 
-@Save_Button
-Scenario: Admin click on Save button on Program Details Popup
-Given Admin is on the Program Details popup window for selected Program name.
-When Admin click on the Save button on Program window popup
-Then Nothing changed for particular program. 
-#
-#@Delete_Program_Feature
-#Scenario: Validate the delete scenario
-#Given Admin is On the Manage Program Page
-#When Admin clicks Delete button on the data table for any row
-#Then Admin should see a alert open with heading "Confirm" along with YES and NO button for deletion
+#@Save_Button
+#Scenario: Admin click on Save button on Program Details Popup
+#Given Admin is on the Program Details popup window for selected Program name.
+#When Admin click on the Save button on Program window popup
+#Then Nothing changed for particular program. 
+
+@Delete_Program_Feature
+Scenario: Validate the delete scenario
+Given Admin is On the Manage Program Page and select single Program to delete
+When Admin clicks Delete button on the data table for any row
+Then Admin should see a alert open with heading "Confirm" along with YES and NO button for deletion
 
 #@Confirm_Program_Deletion_window_Validation
 #Scenario Outline: Validate details for Confirm Deletion form

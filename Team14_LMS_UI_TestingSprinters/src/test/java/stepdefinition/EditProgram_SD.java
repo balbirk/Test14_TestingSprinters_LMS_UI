@@ -82,7 +82,7 @@ public class EditProgram_SD {
 	}
 
 	@Given("Admin is on the Program Details popup window for selected Program name.")
-	public void admin_is_on_the_program_details_popup_window_for_selected_program_name() {
+	public void admin_is_on_the_program_details_popup_window_for_selected_program_name() throws InterruptedException {
 		ed.admin_is_on_the_program_details_popup_window_for_selected_program_name();
 	     
 	}
@@ -95,7 +95,7 @@ public class EditProgram_SD {
 
 	@Then("Program name should be edited with successful message.")
 	public void program_name_should_be_edited_with_successful_message() {
-	     
+	    
 	     
 	}
 
@@ -154,7 +154,7 @@ public class EditProgram_SD {
 	}
 
 	@When("Admin click on the Save button on Program window popup")
-	public void admin_click_on_the_save_button_on_program_window_popup() {
+	public void admin_click_on_the_save_button_on_program_window_popup() throws InterruptedException {
 		ed.admin_click_on_the_save_button_on_program_window_popup();
 	     
 	}
@@ -167,14 +167,19 @@ public class EditProgram_SD {
 	
 	@When("Admin clicks Delete button on the data table for any row")
 	public void admin_clicks_delete_button_on_the_data_table_for_any_row() {
+		ed.admin_clicks_delete_button_on_the_data_table_for_any_row();
 	     
-	     
+	}
+	
+	@Given("Admin is On the Manage Program Page and select single Program to delete")
+	public void admin_is_on_the_manage_program_page_and_select_single_program_to_delete() {
+	
 	}
 
 	@Then("Admin should see a alert open with heading {string} along with YES and NO button for deletion")
 	public void admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(String string) {
 	     
-	     
+	     ed.admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(string);
 	}
 
 	@Then("Admin should see a message {string} Testing\"?\"")
