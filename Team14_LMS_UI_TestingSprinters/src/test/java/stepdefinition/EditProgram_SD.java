@@ -118,8 +118,11 @@ public class EditProgram_SD {
 	}
 
 	@Then("Program staus should be changed with successful message.")
-	public void program_staus_should_be_changed_with_successful_message() {
-	     
+	public void program_staus_should_be_changed_with_successful_message() throws InterruptedException {
+		Thread.sleep(200);
+		 WebElement SearchProg=driver.findElement(By.id("filterGlobal"));
+	     SearchProg.click();
+	     SearchProg.clear();
 	     
 	}
 
@@ -161,23 +164,29 @@ public class EditProgram_SD {
 
 	@Then("Nothing changed for particular program.")
 	public void nothing_changed_for_particular_program() {
-	     
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement SearchProg=driver.findElement(By.id("filterGlobal"));
+	    SearchProg.click();
+	    SearchProg.clear();
+	    SearchProg.sendKeys(EditProgName);
+		WebElement checkboxProgname=driver.findElement(By.xpath("//div//div[2][@class='p-checkbox-box p-component']"));
+	    checkboxProgname.click();
 	     
 	}
 	
 	@When("Admin clicks Delete button on the data table for any row")
-	public void admin_clicks_delete_button_on_the_data_table_for_any_row() {
+	public void admin_clicks_delete_button_on_the_data_table_for_any_row() throws InterruptedException {
 		ed.admin_clicks_delete_button_on_the_data_table_for_any_row();
 	     
 	}
 	
 	@Given("Admin is On the Manage Program Page and select single Program to delete")
-	public void admin_is_on_the_manage_program_page_and_select_single_program_to_delete() {
-	
+	public void admin_is_on_the_manage_program_page_and_select_single_program_to_delete() throws InterruptedException {
+	ed.admin_is_on_the_manage_program_page_and_select_single_program_to_delete();
 	}
 
 	@Then("Admin should see a alert open with heading {string} along with YES and NO button for deletion")
-	public void admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(String string) {
+	public void admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(String string) throws InterruptedException {
 	     
 	     ed.admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(string);
 	}
@@ -189,14 +198,41 @@ public class EditProgram_SD {
 	}
 
 	@Given("Admin is on Confirm Deletion alert")
-	public void admin_is_on_confirm_deletion_alert() {
-	     
-	     
+	public void admin_is_on_confirm_deletion_alert() throws InterruptedException {
+	    
+		Thread.sleep(200);
+	    WebElement SearchProg=driver.findElement(By.id("filterGlobal"));
+	    SearchProg.click();
+	    SearchProg.clear();
+	    Thread.sleep(200);
+	    SearchProg.sendKeys(EditProgName);
+	    String xpath1="//div//table//tbody//tr//td[2][text()='"+EditProgName+"']";
+	    WebElement foundProgName=driver.findElement(By.xpath(xpath1));
+	    Thread.sleep(300);
+//	    String xpath1="//div//table//tbody//tr//td[2][text()='"+EditProgName+"']";
+//	    WebElement foundProgName=driver.findElement(By.xpath(xpath1));
+//	    WebElement checkboxProgname=driver.findElement(By.xpath("//div//div[2][@class='p-checkbox-box p-component']"));
+//	    checkboxProgname.click();
+//	    checkboxProgname.click();
+//	    Thread.sleep(300);
+//		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//	    WebElement ConfirmText=driver.findElement(By.xpath("//div//div//div//span[@class='p-dialog-title ng-tns-c133-4 ng-star-inserted' and contains(text(),'Confirm')]"));
+//	    Assert.assertTrue(ConfirmText.isDisplayed());
+		WebElement deletebutton=driver.findElement(By.id("deleteProgram"));
+	     deletebutton.click();
+		//Thread.sleep(200);
+	    WebElement ConfirmText=driver.findElement(By.xpath("//div//div//div//span[@class='p-dialog-title ng-tns-c133-4 ng-star-inserted' and contains(text(),'Confirm')]"));
+	    Assert.assertTrue(ConfirmText.isDisplayed());
+	    WebElement yesclick=driver.findElement(By.xpath("//div//button[2]//span[2][@class='p-button-label' and contains(text(),'Yes')]"));
+	    Assert.assertTrue(yesclick.isDisplayed());
+	    WebElement NoClick=driver.findElement(By.xpath("//div//button[1]//span[2][@class='p-button-label' and contains(text(),'No')]"));
+	    Assert.assertTrue(NoClick.isDisplayed());
 	}
 
 	@When("Admin clicks YES button on the deletion alert")
 	public void admin_clicks_yes_button_on_the_deletion_alert() {
-	     
+	     WebElement yesclick=driver.findElement(By.xpath("//div//button[2]//span[2][@class='p-button-label' and contains(text(),'Yes')]"));
+	     yesclick.click();
 	     
 	}
 
@@ -207,8 +243,12 @@ public class EditProgram_SD {
 	}
 
 	@When("Admin clicks NO button on the deletion alert")
-	public void admin_clicks_no_button_on_the_deletion_alert() {
-	     
+	public void admin_clicks_no_button_on_the_deletion_alert() throws InterruptedException {
+		WebElement deletebutton=driver.findElement(By.id("deleteProgram"));
+	     deletebutton.click();
+		Thread.sleep(300);
+		WebElement NoClick=driver.findElement(By.xpath("//div//button[1]//span[2][@class='p-button-label' and contains(text(),'No')]"));
+	     NoClick.click();
 	     
 	}
 
@@ -219,8 +259,10 @@ public class EditProgram_SD {
 	}
 
 	@When("Admin clicks Close\\(X) Icon on Deletion alert")
-	public void admin_clicks_close_x_icon_on_deletion_alert() {
-	   
+	public void admin_clicks_close_x_icon_on_deletion_alert() throws InterruptedException {
+		Thread.sleep(300);
+	   WebElement Xclick=driver.findElement(By.xpath("//div//button//span[@class='pi pi-times ng-tns-c133-4']"));
+	   Xclick.click();
 	}
 
 	@Then("Admin can see the deletion alert disappears without any changes")
@@ -229,14 +271,19 @@ public class EditProgram_SD {
 	     
 	}
 	@When("Admin clicks any checkbox in front of targeted Prgram Name")
-	public void admin_clicks_any_checkbox_in_front_of_targeted_prgram_name() {
-	     
+	public void admin_clicks_any_checkbox_in_front_of_targeted_prgram_name() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	     Thread.sleep(3000);
+	     WebElement checkboxProgname=driver.findElement(By.xpath("//div//div[2][@class='p-checkbox-box p-component']"));
+	     checkboxProgname.click();
 	     
 	}
 
 	@Then("Admin should see common delete option enabled under header Manage Program")
 	public void admin_should_see_common_delete_option_enabled_under_header_manage_program() {
-	     
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	     WebElement DeleteAll=driver.findElement(By.xpath("//div//div//button[@class='p-button-danger p-button p-component p-button-icon-only']"));
+	     Assert.assertTrue(DeleteAll.isDisplayed());
 	     
 	}
 

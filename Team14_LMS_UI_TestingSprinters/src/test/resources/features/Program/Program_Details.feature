@@ -53,17 +53,17 @@ Then Program staus should be changed with successful message.
    #| 1234     | $%^         |
    #| %^&			|	@#$re34			|
    
-#@Cancel_Button
-#Scenario: Admin click on Cancel button on Program Details Popup
-#Given Admin is on the Program Details popup window for selected Program name.
-#When Admin click on the cancel button on Program window popup
-#Then Popup window closed with page navigate to Manage Program page. Nothing changed for particular program.  
+@Cancel_Button
+Scenario: Admin click on Cancel button on Program Details Popup
+Given Admin is on the Program Details popup window for selected Program name.
+When Admin click on the cancel button on Program window popup
+Then Popup window closed with page navigate to Manage Program page. Nothing changed for particular program.  
 
-#@Save_Button
-#Scenario: Admin click on Save button on Program Details Popup
-#Given Admin is on the Program Details popup window for selected Program name.
-#When Admin click on the Save button on Program window popup
-#Then Nothing changed for particular program. 
+@Save_Button
+Scenario: Admin click on Save button on Program Details Popup
+Given Admin is on the Program Details popup window for selected Program name.
+When Admin click on the Save button on Program window popup
+Then Nothing changed for particular program. 
 
 @Delete_Program_Feature
 Scenario: Validate the delete scenario
@@ -80,29 +80,31 @@ Then Admin should see a alert open with heading "Confirm" along with YES and NO 
 #| Program name|
 #|	Testing			|
 #
-#@Deletion_Window_Yes_Button
-#Scenario: Admin click yes button on Program Deletion window
-#Given Admin is on Confirm Deletion alert
-#When Admin clicks YES button on the deletion alert
-#Then Admin gets a message "Successful Program Deleted" alert and able to see that program deleted in the data table
-#
-#@Deletion_Window_No_Button
-#Scenario: Admin click No button on Program Deletion window
-#Given Admin is on Confirm Deletion alert
-#When Admin clicks NO button on the deletion alert
-#Then Admin can see the deletion alert disappears without deleting
-#
-#@Deletion_Window_Close(X)_Icon
-#Scenario: Admin click close(X) button on Program Deletion window
-#Given Admin is on Confirm Deletion alert
-#When Admin clicks Close(X) Icon on Deletion alert
-#Then Admin can see the deletion alert disappears without any changes
-#
-#@Common_Delete_Button_Enabled
-#Scenario: Validate Common Delete button enabled after clicking on any checkbox
-#Given Admin is On the Manage Program Page
-#When Admin clicks any checkbox in front of targeted Prgram Name
-#Then Admin should see common delete option enabled under header Manage Program
+
+@Deletion_Window_No_Button
+Scenario: Admin click No button on Program Deletion window
+Given Admin is on Confirm Deletion alert
+When Admin clicks NO button on the deletion alert
+Then Admin can see the deletion alert disappears without deleting
+
+@Deletion_Window_Close(X)_Icon
+Scenario: Admin click close(X) button on Program Deletion window
+Given Admin is on Confirm Deletion alert
+When Admin clicks Close(X) Icon on Deletion alert
+Then Admin can see the deletion alert disappears without any changes
+
+@Deletion_Window_Yes_Button
+Scenario: Admin click yes button on Program Deletion window
+Given Admin is on Confirm Deletion alert
+When Admin clicks YES button on the deletion alert
+Then Admin gets a message "Successful Program Deleted" alert and able to see that program deleted in the data table
+
+@Common_Delete_Button_Enabled
+Scenario: Validate Common Delete button enabled after clicking on any checkbox
+Given Admin is On the Manage Program Page
+When Admin clicks any checkbox in front of targeted Prgram Name
+Then Admin should see common delete option enabled under header Manage Program
+
 #
 #@Multiple_Program_Deletion_By_Single_Checkbox_Click_Yes
 #Scenario: Validate multiple program deletion by selecting Single checkbox with Yes Option
