@@ -1,12 +1,23 @@
-  
+ 
+  @DashboardPage
   Feature: Dashboard Page Validation
  
-   Background: Admin gives the correct LMS portal URL
-      Given Admin is in Home Page
-      When Admin enter valid credentials  and clicks login button 
- 
+   #Background: Admin gives the correct LMS portal URL
+      #Given Admin is in Home Page
+      #When Admin enter valid credentials  and clicks login button 
+      
+      Scenario Outline: Validate login with valid credentials
+    Given Admin is in Home Page
+    When User enters sheetname "<sheetName>" and rownumber <rowNumber>
+    And Enter username "<userName>" and password "<password>" and click on login button
+    Then User navigates to DashBoard Page
+  
+    Examples:
+      | sheetName | rowNumber |
+	    | LoginPage | 0       |
+      
    Scenario: Verify after login  admin lands on manage program as dashboard page
-      Then Admin should see manage program as header 
+      Then Admin should see Manage Program as header 
       
    Scenario: Verify the response time
       Then Maximum navigation time in milliseconds, defaults to 30 seconds
@@ -42,6 +53,7 @@
       Then Admin should see logout in the 4th place
       
       
+         
          
        
       
