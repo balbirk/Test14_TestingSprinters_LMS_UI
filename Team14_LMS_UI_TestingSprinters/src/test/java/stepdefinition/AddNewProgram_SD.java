@@ -6,6 +6,7 @@ import browserlaunch.Driverfactory;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageobjects.NewProgramPage;
+import utilities.AppUtils;
 import utilities.LoggerLoad;
 
 public class AddNewProgram_SD {
@@ -53,6 +54,13 @@ public class AddNewProgram_SD {
 	public void admin_clicks_save_button_after_entering_all_the_valid_details_and(String keyOption, String sheetName) throws Exception {
 		program.saveProgramData(keyOption,sheetName,true);
 	}
+	
+	
+	@When("Admin clicks Save button after editing description")
+	public void Admin_clicks_Save_button_after_editing_description() throws Exception {
+		program.updateProgramData();
+	}
+	
 
 	@When("Admin clicks Close Icon on Program Details form")
 	public void admin_clicks_close_icon_on_program_details_form() throws Exception {

@@ -4,6 +4,8 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Map;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +24,6 @@ public class NewProgramPage {
 	
 	private WebDriver driver = Driverfactory.getDriver();
 	
-	WebElement filterGlobalEle = driver.findElement(By.id("filterGlobal")); 		;
 
 
 	String programName="";
@@ -158,11 +159,12 @@ public class NewProgramPage {
 			fillProgramData(xl_program_rec);
 			LoggerLoad.info(" Program details - "+xl_program_rec);
 			if(isValidRow) {
-				SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmssSSS");
-		        String formattedTime = sdf.format(new Date());
-				this.programName = this.programName+formattedTime;
+//				SimpleDateFormat sdf = new SimpleDateFormat("SSS");
+//		        String formattedTime = sdf.format(new Date());
+				int randomNum = ThreadLocalRandom.current().nextInt(1001, 9999);
+				this.programName = this.programName+randomNum;
 				AppUtils.NEW_PROGRAM_NAME = this.programName;
-				this.programDescription = this.programDescription+"_"+formattedTime;
+				this.programDescription = this.programDescription+"_"+randomNum;
 				
 			}
 			AppUtils.fillValue(programNameEle, this.programName);
@@ -175,7 +177,12 @@ public class NewProgramPage {
 				AppUtils.click(driver, inActiveRadio_btn);
 			}
 			AppUtils.click(driver, programSave);
-//			Thread.sleep(1000);
+			Thread.sleep(1000);
+	        //Thread.sleep(100);
+	        if(isValidRow) {
+				//handleSaveMessage();
+	       }// only if valid row
+			
 //			AppUtils.click(driver, programCancel);
 			LoggerLoad.info("End - Admin clicked on save program data");
 		} catch (Exception e) {
@@ -183,6 +190,25 @@ public class NewProgramPage {
 			e.printStackTrace();
 		}
 	} // save program
+
+	private void handleSaveMessage() throws InterruptedException {
+		WebElement  saveMsg = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div"));
+		WebElement msgBtn = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/button"));
+		boolean isMsg  = AppUtils.isUIFieldExists(saveMsg, "Save Message Div" , "Save Program");
+		if(isMsg) {
+			LoggerLoad.info("Save Program Message from DIV "+saveMsg.getText());
+		}
+		isMsg  = AppUtils.isUIFieldExists(msgBtn, "Save Message Div" , "Save Program");
+
+		if(isMsg) {
+			LoggerLoad.info("Save Program - got the Message X button ");
+			//Thread.sleep(500);
+		    Thread.sleep(100);
+			msgBtn.click();
+			LoggerLoad.info("Save Program - clicked on Message X button ");
+			
+		}
+	}
 	
 	public void clickBtnX() throws Exception {
 //		try {
@@ -198,9 +224,14 @@ public class NewProgramPage {
 	
 	}
 
-	@When("Admin searches by newly created program name")
-	public void admin_searches_by_newly_created_program_name() {
+	public void searchNewProgram() {
 		try {
+			//Thread.sleep(4000);
+			//driver.switchTo().defaultContent();
+			//driver.get("https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/");
+			//Thread.sleep(5000);
+			//driver.switchTo().defaultContent();
+			WebElement filterGlobalEle = driver.findElement(By.id("filterGlobal")); 		
 			AppUtils.fillValue(filterGlobalEle, AppUtils.NEW_PROGRAM_NAME);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -208,4 +239,58 @@ public class NewProgramPage {
 		}
 	}
 
+	public void updateProgramData() {
+		try {
+			LoggerLoad.info("Start - Admin clicked on save program data for edit");
+			WebElement editButton = driver.findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr/td[5]/div/span/button[1]"));
+			boolean editProgram = AppUtils.isUIFieldExists(editButton, "Edit button" , "Edit Program pop-up:");
+			if(editProgram) {
+				AppUtils.click(driver, editButton);
+				programNameEle = driver.findElement(By.id("programName"));
+				AppUtils.NEW_PROGRAM_NAME = programNameEle.getText(); 
+				LoggerLoad.info("AppUtils.NEW_PROGRAM_NAME "+AppUtils.NEW_PROGRAM_NAME);
+				programDescriptionEle = driver.findElement(By.id("programDescription"));
+				AppUtils.fillValue(programDescriptionEle, "SDET Modified Desc "+System.currentTimeMillis());				
+			}
+			AppUtils.click(driver, programSave);
+//			Thread.sleep(1000);
+//			AppUtils.click(driver, programCancel);
+			LoggerLoad.info("End - Admin clicked on save program data for edit");
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public void deleteProgramData() {
+
+		try {
+			LoggerLoad.info("Start - Admin clicked on delete newly program data ");
+			WebElement delButton = driver.findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr/td[5]/div/span/button[2]"));
+			boolean delProgram = AppUtils.isUIFieldExists(delButton, "Delete button" , "New Program");
+			if(delProgram) {
+				AppUtils.click(driver, delButton);
+				// Click on YES for the alert
+				WebElement yesButton = driver.findElement(By.xpath("/html/body/app-root/app-program/p-confirmdialog/div/div/div[3]/button[2]"));
+				boolean yesDel = AppUtils.isUIFieldExists(yesButton, "Yes button" , "Alert Pop-up");
+				if(yesDel) {
+					yesButton.click();
+				}
+			}
+//			Thread.sleep(1000);
+//			AppUtils.click(driver, programCancel);
+			LoggerLoad.info("End - Admin clicked on delete program ");
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		
+	}
+	
+	
+			
+			
 }
