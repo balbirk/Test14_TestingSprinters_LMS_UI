@@ -16,6 +16,9 @@ public class AppUtils {
 	static Actions action = new Actions(Driverfactory.getDriver());
 	static Select select;
 	public static String NEW_PROGRAM_NAME = "";
+
+	public static String USER_FIRST_NAME = "";
+	
 	
 	// check if the webelement is present or not
 	
