@@ -1,0 +1,260 @@
+[INFO ]2024-05-02 12:55:22.894[main]utilities.LoggerLoad1)-Validate Manage Program TitleManage Program
+[INFO ]2024-05-02 12:55:22.918[main]utilities.LoggerLoad1)-Validate Response Time
+[INFO ]2024-05-02 12:55:23.423[main]utilities.LoggerLoad1)-Validate Broken link
+[INFO ]2024-05-02 12:55:23.462[main]utilities.LoggerLoad1)-Validate Dashboard TitleLMS - Learning Management System
+[INFO ]2024-05-02 12:55:23.518[main]utilities.LoggerLoad1)-Validate Alignment of LMS
+[INFO ]2024-05-02 12:55:23.655[main]utilities.LoggerLoad1)-Validate spellings
+[INFO ]2024-05-02 12:55:23.689[main]utilities.LoggerLoad1)-Validate Alignment of navigation Text
+[INFO ]2024-05-02 12:55:25.915[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available
+[INFO ]2024-05-02 12:55:25.931[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Name is displayed
+[INFO ]2024-05-02 12:55:25.954[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Description is displayed
+[INFO ]2024-05-02 12:55:25.975[main]utilities.LoggerLoad1)-Add New Program pop-up:: Active Radio button is displayed
+[INFO ]2024-05-02 12:55:25.997[main]utilities.LoggerLoad1)-Add New Program pop-up:: In-Active Radio button is displayed
+[INFO ]2024-05-02 12:55:26.016[main]utilities.LoggerLoad1)-Add New Program pop-up:: Save button is displayed
+[INFO ]2024-05-02 12:55:26.041[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 12:55:26.062[main]utilities.LoggerLoad1)-Add New Program pop-up:: Close Icon (X) is displayed
+[INFO ]2024-05-02 12:55:26.071[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available complete
+[INFO ]2024-05-02 12:55:26.072[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 12:55:26.073[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:26.086[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 12:55:26.249[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:26.249[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 12:55:26.928[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:26.979[main]utilities.LoggerLoad1)- Program details - {KeyOption=Empty_form_submission}
+[INFO ]2024-05-02 12:55:28.308[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:28.315[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 12:55:28.315[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:28.326[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 12:55:28.471[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:28.472[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 12:55:28.741[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:28.780[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Name, programName=SDET}
+[INFO ]2024-05-02 12:55:30.111[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:30.113[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 12:55:30.113[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:30.126[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 12:55:30.272[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:30.272[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 12:55:30.519[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:30.566[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Description, programDescription=SDET Description, programName=null}
+[INFO ]2024-05-02 12:55:31.896[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:31.899[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 12:55:31.899[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:31.910[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 12:55:32.043[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:32.043[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 12:55:32.297[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:32.329[main]utilities.LoggerLoad1)- Program details - {KeyOption=Select_Status_only, Status=Active, programDescription=null, programName=null}
+[INFO ]2024-05-02 12:55:33.777[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:33.779[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 12:55:33.779[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:33.793[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 12:55:33.923[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 12:55:33.923[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 12:55:34.217[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:34.272[main]utilities.LoggerLoad1)- Program details - {KeyOption=Save_Valid_Program_Data, Status=Active, programDescription=SDET_T14_DESC, programName=SDETT14}
+[INFO ]2024-05-02 12:55:35.777[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 12:55:38.066[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 12:55:38.294[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data for edit
+[INFO ]2024-05-02 12:55:38.319[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 12:55:38.486[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME 
+[INFO ]2024-05-02 12:55:38.786[main]utilities.LoggerLoad1)-End - Admin clicked on save program data for edit
+[INFO ]2024-05-02 12:55:42.987[main]utilities.LoggerLoad1)-Delete Program pop-up:: Delete button is displayed
+[INFO ]2024-05-02 12:55:43.024[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is displayed
+[INFO ]2024-05-02 12:55:43.044[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME for delete SDETT141939
+[INFO ]2024-05-02 12:55:43.219[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is displayed
+[INFO ]2024-05-02 13:01:12.786[main]utilities.LoggerLoad1)-Validate Manage Program TitleManage Program
+[INFO ]2024-05-02 13:01:12.800[main]utilities.LoggerLoad1)-Validate Response Time
+[INFO ]2024-05-02 13:01:13.409[main]utilities.LoggerLoad1)-Validate Broken link
+[INFO ]2024-05-02 13:01:13.445[main]utilities.LoggerLoad1)-Validate Dashboard TitleLMS - Learning Management System
+[INFO ]2024-05-02 13:01:13.499[main]utilities.LoggerLoad1)-Validate Alignment of LMS
+[INFO ]2024-05-02 13:01:13.640[main]utilities.LoggerLoad1)-Validate spellings
+[INFO ]2024-05-02 13:01:13.673[main]utilities.LoggerLoad1)-Validate Alignment of navigation Text
+[INFO ]2024-05-02 13:01:15.896[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available
+[INFO ]2024-05-02 13:01:15.913[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Name is displayed
+[INFO ]2024-05-02 13:01:15.935[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Description is displayed
+[INFO ]2024-05-02 13:01:15.958[main]utilities.LoggerLoad1)-Add New Program pop-up:: Active Radio button is displayed
+[INFO ]2024-05-02 13:01:15.980[main]utilities.LoggerLoad1)-Add New Program pop-up:: In-Active Radio button is displayed
+[INFO ]2024-05-02 13:01:16.008[main]utilities.LoggerLoad1)-Add New Program pop-up:: Save button is displayed
+[INFO ]2024-05-02 13:01:16.031[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:01:16.052[main]utilities.LoggerLoad1)-Add New Program pop-up:: Close Icon (X) is displayed
+[INFO ]2024-05-02 13:01:16.061[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available complete
+[INFO ]2024-05-02 13:01:16.062[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:01:16.062[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:16.077[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:01:16.226[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:16.226[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:01:16.938[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:16.990[main]utilities.LoggerLoad1)- Program details - {KeyOption=Empty_form_submission}
+[INFO ]2024-05-02 13:01:18.311[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:18.314[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:01:18.315[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:18.329[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:01:18.457[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:18.458[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:01:18.754[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:18.787[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Name, programName=SDET}
+[INFO ]2024-05-02 13:01:20.086[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:20.087[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:01:20.087[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:20.100[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:01:20.233[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:20.233[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:01:20.474[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:20.505[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Description, programDescription=SDET Description, programName=null}
+[INFO ]2024-05-02 13:01:21.824[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:21.827[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:01:21.827[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:21.838[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:01:21.970[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:21.970[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:01:22.195[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:22.223[main]utilities.LoggerLoad1)- Program details - {KeyOption=Select_Status_only, Status=Active, programDescription=null, programName=null}
+[INFO ]2024-05-02 13:01:23.656[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:23.658[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:01:23.658[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:23.670[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:01:23.803[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:01:23.803[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:01:24.039[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:24.069[main]utilities.LoggerLoad1)- Program details - {KeyOption=Save_Valid_Program_Data, Status=Active, programDescription=SDET_T14_DESC, programName=SDETT14}
+[INFO ]2024-05-02 13:01:25.543[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:01:27.785[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 13:01:28.011[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data for edit
+[INFO ]2024-05-02 13:01:28.031[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 13:01:28.205[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME 
+[INFO ]2024-05-02 13:01:28.466[main]utilities.LoggerLoad1)-End - Admin clicked on save program data for edit
+[INFO ]2024-05-02 13:01:32.647[main]utilities.LoggerLoad1)-Delete Program pop-up:: Delete button is displayed
+[INFO ]2024-05-02 13:01:32.676[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is displayed
+[INFO ]2024-05-02 13:01:32.693[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME for delete SDETT144859
+[INFO ]2024-05-02 13:01:32.856[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is displayed
+[INFO ]2024-05-02 13:10:19.791[main]utilities.LoggerLoad1)-Validate Manage Program TitleManage Program
+[INFO ]2024-05-02 13:10:19.820[main]utilities.LoggerLoad1)-Validate Response Time
+[INFO ]2024-05-02 13:10:20.470[main]utilities.LoggerLoad1)-Validate Broken link
+[INFO ]2024-05-02 13:10:20.519[main]utilities.LoggerLoad1)-Validate Dashboard TitleLMS - Learning Management System
+[INFO ]2024-05-02 13:10:20.570[main]utilities.LoggerLoad1)-Validate Alignment of LMS
+[INFO ]2024-05-02 13:10:20.719[main]utilities.LoggerLoad1)-Validate spellings
+[INFO ]2024-05-02 13:10:20.759[main]utilities.LoggerLoad1)-Validate Alignment of navigation Text
+[INFO ]2024-05-02 13:10:23.245[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available
+[INFO ]2024-05-02 13:10:23.262[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Name is displayed
+[INFO ]2024-05-02 13:10:23.284[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Description is displayed
+[INFO ]2024-05-02 13:10:23.307[main]utilities.LoggerLoad1)-Add New Program pop-up:: Active Radio button is displayed
+[INFO ]2024-05-02 13:10:23.333[main]utilities.LoggerLoad1)-Add New Program pop-up:: In-Active Radio button is displayed
+[INFO ]2024-05-02 13:10:23.355[main]utilities.LoggerLoad1)-Add New Program pop-up:: Save button is displayed
+[INFO ]2024-05-02 13:10:23.379[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:10:23.402[main]utilities.LoggerLoad1)-Add New Program pop-up:: Close Icon (X) is displayed
+[INFO ]2024-05-02 13:10:23.411[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available complete
+[INFO ]2024-05-02 13:10:23.412[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:10:23.412[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:23.426[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:10:23.577[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:23.578[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:10:24.305[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:24.363[main]utilities.LoggerLoad1)- Program details - {KeyOption=Empty_form_submission}
+[INFO ]2024-05-02 13:10:25.717[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:25.723[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:10:25.723[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:25.737[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:10:25.884[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:25.885[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:10:26.198[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:26.256[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Name, programName=SDET}
+[INFO ]2024-05-02 13:10:27.624[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:27.626[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:10:27.626[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:27.641[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:10:27.787[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:27.787[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:10:28.068[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:28.124[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Description, programDescription=SDET Description, programName=null}
+[INFO ]2024-05-02 13:10:29.516[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:29.520[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:10:29.520[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:29.533[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:10:29.661[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:29.662[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:10:29.925[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:29.967[main]utilities.LoggerLoad1)- Program details - {KeyOption=Select_Status_only, Status=Active, programDescription=null, programName=null}
+[INFO ]2024-05-02 13:10:31.448[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:31.450[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:10:31.450[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:31.461[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:10:31.595[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:10:31.595[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:10:31.886[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:31.933[main]utilities.LoggerLoad1)- Program details - {KeyOption=Save_Valid_Program_Data, Status=Active, programDescription=SDET_T14_DESC, programName=SDETT14}
+[INFO ]2024-05-02 13:10:33.467[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:10:35.744[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 13:10:35.982[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data for edit
+[INFO ]2024-05-02 13:10:36.014[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 13:10:36.177[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME 
+[INFO ]2024-05-02 13:10:36.507[main]utilities.LoggerLoad1)-End - Admin clicked on save program data for edit
+[INFO ]2024-05-02 13:10:40.737[main]utilities.LoggerLoad1)-Delete Program pop-up:: Delete button is displayed
+[INFO ]2024-05-02 13:10:40.773[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is displayed
+[INFO ]2024-05-02 13:10:40.792[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME for delete SDETT147061
+[INFO ]2024-05-02 13:10:40.965[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is displayed
+[INFO ]2024-05-02 13:15:59.565[main]utilities.LoggerLoad1)-Validate Manage Program TitleManage Program
+[INFO ]2024-05-02 13:15:59.579[main]utilities.LoggerLoad1)-Validate Response Time
+[INFO ]2024-05-02 13:16:00.147[main]utilities.LoggerLoad1)-Validate Broken link
+[INFO ]2024-05-02 13:16:00.180[main]utilities.LoggerLoad1)-Validate Dashboard TitleLMS - Learning Management System
+[INFO ]2024-05-02 13:16:00.231[main]utilities.LoggerLoad1)-Validate Alignment of LMS
+[INFO ]2024-05-02 13:16:00.348[main]utilities.LoggerLoad1)-Validate spellings
+[INFO ]2024-05-02 13:16:00.367[main]utilities.LoggerLoad1)-Validate Alignment of navigation Text
+[INFO ]2024-05-02 13:16:02.427[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available
+[INFO ]2024-05-02 13:16:02.443[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Name is displayed
+[INFO ]2024-05-02 13:16:02.465[main]utilities.LoggerLoad1)-Add New Program pop-up:: Program Description is displayed
+[INFO ]2024-05-02 13:16:02.484[main]utilities.LoggerLoad1)-Add New Program pop-up:: Active Radio button is displayed
+[INFO ]2024-05-02 13:16:02.504[main]utilities.LoggerLoad1)-Add New Program pop-up:: In-Active Radio button is displayed
+[INFO ]2024-05-02 13:16:02.523[main]utilities.LoggerLoad1)-Add New Program pop-up:: Save button is displayed
+[INFO ]2024-05-02 13:16:02.544[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:16:02.564[main]utilities.LoggerLoad1)-Add New Program pop-up:: Close Icon (X) is displayed
+[INFO ]2024-05-02 13:16:02.566[main]utilities.LoggerLoad1)-Admin clicks on Add program. Veryfing if all form fields are available complete
+[INFO ]2024-05-02 13:16:02.566[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:16:02.566[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:02.586[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:16:02.730[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:02.730[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:16:03.408[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:03.453[main]utilities.LoggerLoad1)- Program details - {KeyOption=Empty_form_submission}
+[INFO ]2024-05-02 13:16:04.746[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:04.748[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:16:04.748[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:04.764[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:16:04.907[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:04.908[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:16:05.152[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:05.183[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Name, programName=SDET}
+[INFO ]2024-05-02 13:16:06.497[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:06.498[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:16:06.498[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:06.511[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:16:06.649[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:06.649[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:16:06.943[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:06.980[main]utilities.LoggerLoad1)- Program details - {KeyOption=Enter_only_Program_Description, programDescription=SDET Description, programName=null}
+[INFO ]2024-05-02 13:16:08.313[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:08.316[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:16:08.316[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:08.330[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:16:08.473[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:08.473[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:16:08.716[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:08.743[main]utilities.LoggerLoad1)- Program details - {KeyOption=Select_Status_only, Status=Active, programDescription=null, programName=null}
+[INFO ]2024-05-02 13:16:10.179[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:10.179[main]utilities.LoggerLoad1)-Start Admin clicks on cancel form on the popup
+[INFO ]2024-05-02 13:16:10.179[main]utilities.LoggerLoad1)-Start - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:10.195[main]utilities.LoggerLoad1)-Add New Program pop-up:: Cancel button is displayed
+[INFO ]2024-05-02 13:16:10.324[main]utilities.LoggerLoad1)-End - Admin clicked on cancel button on the popup
+[INFO ]2024-05-02 13:16:10.324[main]utilities.LoggerLoad1)-Admin clicks on cancel form on the popup complete
+[INFO ]2024-05-02 13:16:10.567[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:10.595[main]utilities.LoggerLoad1)- Program details - {KeyOption=Save_Valid_Program_Data, Status=Active, programDescription=SDET_T14_DESC, programName=SDETT14}
+[INFO ]2024-05-02 13:16:12.059[main]utilities.LoggerLoad1)-End - Admin clicked on save program data
+[INFO ]2024-05-02 13:16:14.307[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 13:16:14.507[main]utilities.LoggerLoad1)-Start - Admin clicked on save program data for edit
+[INFO ]2024-05-02 13:16:14.526[main]utilities.LoggerLoad1)-Edit Program pop-up:: Edit button is displayed
+[INFO ]2024-05-02 13:16:14.676[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME 
+[INFO ]2024-05-02 13:16:14.947[main]utilities.LoggerLoad1)-End - Admin clicked on save program data for edit
+[INFO ]2024-05-02 13:16:19.137[main]utilities.LoggerLoad1)-Delete Program pop-up:: Delete button is displayed
+[INFO ]2024-05-02 13:16:19.168[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is displayed
+[INFO ]2024-05-02 13:16:19.187[main]utilities.LoggerLoad1)-AppUtils.NEW_PROGRAM_NAME for delete SDETT146113
+[INFO ]2024-05-02 13:16:19.350[main]utilities.LoggerLoad1)-Alert Pop-up: Yes button is not displayed
