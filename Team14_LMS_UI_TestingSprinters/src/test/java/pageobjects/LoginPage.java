@@ -7,6 +7,8 @@ import java.util.Map;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import stepdefinition.Dashboard_SD;
+import utilities.AppUtils;
 import utilities.ExcelReader;
 
 public class LoginPage {
@@ -31,7 +33,7 @@ public class LoginPage {
 
 	    public void readDataFromSheet(String sheetName, Integer rowNumber) throws IOException {
 	        utilities.ExcelReader reader = new ExcelReader();
-	        List<Map<String, String>> testdata = reader.getData("src/test/resources/TestData/LMSTestData.xlsx", sheetName);
+	        List<Map<String, String>> testdata = reader.getData(sheetName);
 	        userNameExcelValue = testdata.get(rowNumber).get("userName");
 	        passwordExcelValue = testdata.get(rowNumber).get("password");
 	    }
@@ -41,10 +43,14 @@ public class LoginPage {
 	        webDriver.findElement(password).sendKeys(passwordExcelValue);
 	    }
 
-	    public DashBoardPage clickLoginBtn() {
+	    public Dashboard_SD clickLoginBtn() {
 	        webDriver.findElement(loginBtn).click();
-	        return new DashBoardPage(webDriver);
+	        return new Dashboard_SD();
 
 	    }
+		public void validateLoginPage() {
+			// TODO Auto-generated method stub
+			
+		}
 
 }
